@@ -48,7 +48,7 @@ ul.m-doc li.m-doc-collapsible > a:first-child:active {
 a.m-doc-self,
 ul.m-doc li.m-doc-expansible > a:first-child:before,
 ul.m-doc li.m-doc-collapsible > a:first-child:before {
-  color: #a5c9ea;
+  color: #af38e6;
 }
 a.m-doc-self:hover, a.m-doc-self:focus, a.m-doc-self:active,
 ul.m-doc li.m-doc-expansible > a:first-child:hover::before,
@@ -83,7 +83,7 @@ dl.m-doc dt:target, dl.m-doc dt:target + dd {
   margin-left: -1.0rem;
   border-left-style: solid;
   border-left-width: 0.25rem;
-  border-color: #a5c9ea;
+  border-color: #af38e6;
 }
 dl.m-doc dt:target { padding-left: 0.75rem; }
 dl.m-doc dt:target + dd { padding-left: 3.25rem; }
@@ -201,7 +201,7 @@ article section.m-doc-details:target > div {
 .m-container-inflatable section.m-doc-details:target > div::before,
 .m-container-inflatable section-dox-details:target section > div.m::before {
   border-left-width: 0.25rem;
-  border-left-color: #a5c9ea;
+  border-left-color: #af38e6;
 }
 a.m-doc-search-icon {
   padding-left: 1rem;
@@ -214,7 +214,7 @@ body > header > nav #m-navbar-collapse a.m-doc-search-icon svg {
   vertical-align: -5%;
 }
 a.m-doc-search-icon:focus svg, a.m-doc-search-icon:hover svg, a.m-doc-search-icon:active svg {
-  fill: #a5c9ea;
+  fill: #af38e6;
 }
 .m-doc-search {
   display: none;

@@ -45,11 +45,11 @@
   --border-radius: 0.2rem;
 
   /* Basics */
-  --background-color: #2f363f;
+  --background-color: #353535;
   --color: #dcdcdc;
   --line-color: #405363;
-  --link-color: #5b9dd9;
-  --link-active-color: #a5c9ea;
+  --link-color: #af38e6;
+  --link-active-color: #80324f;
   --mark-color: #2f83cc;
   --mark-background-color: #c7cf2f;
   --code-color: #e6e6e6;
@@ -58,7 +58,7 @@
   --console-inverted-color: var(--code-inverted-color);
   /* This is simply color-picked --code-note-background-color on top of
      --background-color */
-  --code-background-color: #282e36;
+  --code-background-color: #404040;
   --code-note-background-color: rgba(34, 39, 46, 0.5);
   --console-background-color: #1a1c1d;
   --button-background-color: #22272e;
@@ -71,7 +71,7 @@
   --header-background-color-landing: rgba(34, 39, 46, 0.75);
   --header-background-color-jumbo: rgba(34, 39, 46, 0.25);
   --header-link-color: #ffffff;
-  --header-link-active-color: #a5c9ea;
+  --header-link-active-color: #af38e6;
   --header-link-current-color: #5b9dd9;
   --header-link-active-background-color: #292f37;
   --header-link-active-background-color-semi: rgba(41, 47, 55, 0.5);
@@ -81,7 +81,7 @@
   --footer-color: #c5c5c5;
   --footer-background-color: #444e5c;
   --footer-link-color: #ffffff;
-  --footer-link-active-color: #a5c9ea;
+  --footer-link-active-color: #af38e6;
 
   /* Cover image */
   --cover-image-background-color: #0f1217;
@@ -93,12 +93,12 @@
   /* Article */
   --article-header-color: #f0f0f0;
   --article-footer-color: #c5c5c5;
-  --article-heading-color: #a5c9ea;
+  --article-heading-color: #af38e6;
   --article-heading-active-color: #dcdcdc;
 
   /* Right navigation panel */
   --navpanel-link-color: #ffffff;
-  --navpanel-link-active-color: #a5c9ea;
+  --navpanel-link-active-color: #af38e6;
 
   /* Plots */
   --plot-background-color: #34424d;
@@ -106,13 +106,13 @@
 
   /* Colored components */
   --default-color: #dcdcdc;
-  --default-link-active-color: #a5c9ea;
+  --default-link-active-color: #af38e6;
   --default-filled-color: #dcdcdc;
   --default-filled-background-color: #34424d;
   --default-filled-link-color: #5b9dd9;
-  --default-filled-link-active-color: #a5c9ea;
+  --default-filled-link-active-color: #af38e6;
 
-  --primary-color: #a5c9ea;
+  --primary-color: #af38e6;
   --primary-link-active-color: #dcdcdc;
   --primary-filled-color: #2f363f;
   --primary-filled-background-color: #a5c2db;

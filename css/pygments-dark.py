@@ -1,65 +1,106 @@
-#
-#   This file is part of m.css.
-#
-#   Copyright © 2017, 2018, 2019 Vladimír Vondruš <mosra@centrum.cz>
-#
-#   Permission is hereby granted, free of charge, to any person obtaining a
-#   copy of this software and associated documentation files (the "Software"),
-#   to deal in the Software without restriction, including without limitation
-#   the rights to use, copy, modify, merge, publish, distribute, sublicense,
-#   and/or sell copies of the Software, and to permit persons to whom the
-#   Software is furnished to do so, subject to the following conditions:
-#
-#   The above copyright notice and this permission notice shall be included
-#   in all copies or substantial portions of the Software.
-#
-#   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-#   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-#   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
-#   THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-#   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-#   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-#   DEALINGS IN THE SOFTWARE.
-#
+# -*- coding: utf-8 -*-
+"""
+    Dracula Theme v1.2.5
+    https://github.com/zenorocha/dracula-theme
+    Copyright 2016, All rights reserved
+    Code licensed under the MIT license
+    http://zenorocha.mit-license.org
+    :author Rob G <wowmotty@gmail.com>
+    :author Chris Bracco <chris@cbracco.me>
+    :author Zeno Rocha <hi@zenorocha.com>
+"""
 
 from pygments.style import Style
 from pygments.token import Keyword, Name, Comment, String, Error, \
     Literal, Number, Operator, Other, Punctuation, Text, Generic, \
     Whitespace
 
-class DarkStyle(Style):
-    background_color = None
-    highlight_color = '#34424d'
+class DraculaStyle(Style):
+
+    background_color = "#282a36"
     default_style = ""
 
     styles = {
-        # C++
-        Comment:                '#a5c9ea',
-        Comment.Preproc:        '#3bd267',
-        Comment.PreprocFile:    '#c7cf2f',
-        Keyword:                'bold #ffffff',
-        Name:                   '#dcdcdc',
-        String:                 '#e07f7c',
-        String.Char:            '#e07cdc',
-        Number:                 '#c7cf2f',
-        Operator:               '#aaaaaa',
-        Punctuation:            "#aaaaaa",
+        Comment: "#6272a4",
+        Comment.Hashbang: "#6272a4",
+        Comment.Multiline: "#6272a4",
+        Comment.Preproc: "#ff79c6",
+        Comment.Single: "#6272a4",
+        Comment.Special: "#6272a4",
 
-        # CMake
-        Name.Builtin:           'bold #ffffff',
-        Name.Variable:          '#c7cf2f',
+        Generic: "#f8f8f2",
+        Generic.Deleted: "#8b080b",
+        Generic.Emph: "#f8f8f2 underline",
+        Generic.Error: "#f8f8f2",
+        Generic.Heading: "#f8f8f2 bold",
+        Generic.Inserted: "#f8f8f2 bold",
+        Generic.Output: "#44475a",
+        Generic.Prompt: "#f8f8f2",
+        Generic.Strong: "#f8f8f2",
+        Generic.Subheading: "#f8f8f2 bold",
+        Generic.Traceback: "#f8f8f2",
 
-        # reST, HTML
-        Name.Tag:               'bold #dcdcdc',
-        Name.Attribute:         'bold #dcdcdc',
-        Name.Class:             'bold #dcdcdc',
-        Operator.Word:          'bold #dcdcdc',
-        Generic.Heading:        'bold #ffffff',
-        Generic.Emph:           'italic #e6e6e6',
-        Generic.Strong:         'bold #e6e6e6',
+        Error: "#f8f8f2",
 
-        # Diffs
-        Generic.Subheading:     '#5b9dd9',
-        Generic.Inserted:       '#3bd267',
-        Generic.Deleted:        '#cd3431'
+        Keyword: "#ff79c6",
+        Keyword.Constant: "#ff79c6",
+        Keyword.Declaration: "#8be9fd italic",
+        Keyword.Namespace: "#ff79c6",
+        Keyword.Pseudo: "#ff79c6",
+        Keyword.Reserved: "#ff79c6",
+        Keyword.Type: "#8be9fd",
+
+        Literal: "#f8f8f2",
+        Literal.Date: "#f8f8f2",
+
+        Name: "#f8f8f2",
+        Name.Attribute: "#50fa7b",
+        Name.Builtin: "#8be9fd italic",
+        Name.Builtin.Pseudo: "#f8f8f2",
+        Name.Class: "#50fa7b",
+        Name.Constant: "#f8f8f2",
+        Name.Decorator: "#f8f8f2",
+        Name.Entity: "#f8f8f2",
+        Name.Exception: "#f8f8f2",
+        Name.Function: "#50fa7b",
+        Name.Label: "#8be9fd italic",
+        Name.Namespace: "#f8f8f2",
+        Name.Other: "#f8f8f2",
+        Name.Tag: "#ff79c6",
+        Name.Variable: "#8be9fd italic",
+        Name.Variable.Class: "#8be9fd italic",
+        Name.Variable.Global: "#8be9fd italic",
+        Name.Variable.Instance: "#8be9fd italic",
+
+        Number: "#bd93f9",
+        Number.Bin: "#bd93f9",
+        Number.Float: "#bd93f9",
+        Number.Hex: "#bd93f9",
+        Number.Integer: "#bd93f9",
+        Number.Integer.Long: "#bd93f9",
+        Number.Oct: "#bd93f9",
+
+        Operator: "#ff79c6",
+        Operator.Word: "#ff79c6",
+
+        Other: "#f8f8f2",
+
+        Punctuation: "#f8f8f2",
+
+        String: "#f1fa8c",
+        String.Backtick: "#f1fa8c",
+        String.Char: "#f1fa8c",
+        String.Doc: "#f1fa8c",
+        String.Double: "#f1fa8c",
+        String.Escape: "#f1fa8c",
+        String.Heredoc: "#f1fa8c",
+        String.Interpol: "#f1fa8c",
+        String.Other: "#f1fa8c",
+        String.Regex: "#f1fa8c",
+        String.Single: "#f1fa8c",
+        String.Symbol: "#f1fa8c",
+
+        Text: "#f8f8f2",
+
+        Whitespace: "#f8f8f2"
     }

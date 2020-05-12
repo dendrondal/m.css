@@ -413,7 +413,7 @@ a.m-flat {
   text-decoration: none;
 }
 a:hover, a:focus, a:active {
-  color: #a5c9ea;
+  color: #af38e6;
 }
 a img { border: 0; }
 svg a { cursor: pointer; }
@@ -1175,7 +1175,7 @@ div.m-button a svg.m-math { fill: #22272e; }
 div.m-button.m-flat a svg.m-math { fill: #dcdcdc; }
 div.m-button.m-flat a:hover svg.m-math, div.m-button.m-default a:focus svg.m-math,
 div.m-button.m-default a:active svg.m-math {
-  fill: #a5c9ea;
+  fill: #af38e6;
 }
 .m-graph { font-size: 16px; }
 div.m-plot svg, div.m-graph svg {
@@ -1221,11 +1221,11 @@ figure.m-figure:not(.m-flat) > svg.m-graph:first-child {
 .m-block.m-default h3 a, .m-block.m-default h4 a, .m-block.m-default h5 a, .m-block.m-default h6 a {
   color: #5b9dd9;
 }
-.m-block.m-primary { border-left-color: #a5c9ea; }
+.m-block.m-primary { border-left-color: #af38e6; }
 .m-block.m-primary h3, .m-block.m-primary h4, .m-block.m-primary h5, .m-block.m-primary h6,
 .m-block.m-primary h3 a, .m-block.m-primary h4 a, .m-block.m-primary h5 a, .m-block.m-primary h6 a,
 .m-text.m-primary, .m-label.m-flat.m-primary {
-  color: #a5c9ea;
+  color: #af38e6;
 }
 .m-block.m-success { border-left-color: #3bd267; }
 .m-block.m-success h3, .m-block.m-success h4, .m-block.m-success h5, .m-block.m-success h6,
@@ -1268,7 +1268,7 @@ figure.m-figure:not(.m-flat) > svg.m-graph:first-child {
 .m-block.m-default h4 a:hover, .m-block.m-default h4 a:focus, .m-block.m-default h4 a:active,
 .m-block.m-default h5 a:hover, .m-block.m-default h5 a:focus, .m-block.m-default h5 a:active,
 .m-block.m-default h6 a:hover, .m-block.m-default h6 a:focus, .m-block.m-default h6 a:active {
-  color: #a5c9ea;
+  color: #af38e6;
 }
 .m-block.m-primary h3 a:hover, .m-block.m-primary h3 a:focus, .m-block.m-primary h3 a:active,
 .m-block.m-primary h4 a:hover, .m-block.m-primary h4 a:focus, .m-block.m-primary h4 a:active,
@@ -1303,17 +1303,17 @@ figure.m-figure:not(.m-flat) > svg.m-graph:first-child {
 div.m-button a, .m-label { color: #22272e; }
 div.m-button.m-flat a { color: #dcdcdc; }
 div.m-button.m-flat a:hover, div.m-button.m-default a:focus, div.m-button.m-default a:active {
-  color: #a5c9ea;
+  color: #af38e6;
 }
 div.m-button.m-default a, .m-label:not(.m-flat).m-default { background-color: #dcdcdc; }
-div.m-button.m-primary a, .m-label:not(.m-flat).m-primary { background-color: #a5c9ea; }
+div.m-button.m-primary a, .m-label:not(.m-flat).m-primary { background-color: #af38e6; }
 div.m-button.m-success a, .m-label:not(.m-flat).m-success { background-color: #3bd267; }
 div.m-button.m-warning a, .m-label:not(.m-flat).m-warning { background-color: #c7cf2f; }
 div.m-button.m-danger a, .m-label:not(.m-flat).m-danger { background-color: #cd3431; }
 div.m-button.m-info a, .m-label:not(.m-flat).m-info { background-color: #2f83cc; }
 div.m-button.m-dim a, .m-label:not(.m-flat).m-dim { background-color: #747474; }
 div.m-button.m-default a:hover, div.m-button.m-default a:focus, div.m-button.m-default a:active {
-  background-color: #a5c9ea;
+  background-color: #af38e6;
 }
 div.m-button.m-primary a:hover, div.m-button.m-primary a:focus, div.m-button.m-primary a:active {
   background-color: #dcdcdc;
@@ -1348,7 +1348,7 @@ table.m-table tr.m-default th a:focus, table.m-table th.m-default a:focus,
 .m-note.m-default a:active,
 table.m-table tr.m-default td a:active, table.m-table td.m-default a:active,
 table.m-table tr.m-default th a:active, table.m-table th.m-default a:active {
-  color: #a5c9ea;
+  color: #af38e6;
 }
 .m-note.m-primary a,
 table.m-table tr.m-primary td a, table.m-table td.m-primary a,
@@ -1488,7 +1488,7 @@ table.m-table tr.m-dim th a:active, table.m-table th.m-dim a:active {
 figure.m-figure.m-default:before { border-color: #34424d; }
 figure.m-figure.m-default figcaption { color: #dcdcdc; }
 figure.m-figure.m-primary:before { border-color: #a5c2db; }
-figure.m-figure.m-primary figcaption { color: #a5c9ea; }
+figure.m-figure.m-primary figcaption { color: #af38e6; }
 figure.m-figure.m-success:before { border-color: #2a703f; }
 figure.m-figure.m-success figcaption { color: #3bd267; }
 figure.m-figure.m-warning:before { border-color: #6d702a; }
@@ -1537,14 +1537,14 @@ div.m-plot svg .m-bar.m-primary,
 .m-graph.m-primary g.m-node:not(.m-flat) polygon,
 .m-graph.m-primary g.m-edge text,
 .m-graph.m-primary g.m-node.m-flat text {
-  fill: #a5c9ea;
+  fill: #af38e6;
 }
 .m-graph.m-primary g.m-edge polygon,
 .m-graph.m-primary g.m-edge path,
 .m-graph.m-primary g.m-node ellipse,
 .m-graph.m-primary g.m-node polygon,
 .m-graph.m-primary g.m-node polyline {
-  stroke: #a5c9ea;
+  stroke: #af38e6;
 }
 .m-math.m-success, .m-math g.m-success, .m-math rect.m-success,
 div.m-plot svg .m-bar.m-success,
@@ -1645,14 +1645,14 @@ div.m-plot svg .m-bar.m-dim,
 .m-graph g.m-node.m-primary:not(.m-flat) polygon,
 .m-graph g.m-edge.m-primary text,
 .m-graph g.m-node.m-primary.m-flat text {
-  fill: #a5c9ea;
+  fill: #af38e6;
 }
 .m-graph g.m-edge.m-primary polygon,
 .m-graph g.m-edge.m-primary path,
 .m-graph g.m-node.m-primary ellipse,
 .m-graph g.m-node.m-primary polygon,
 .m-graph g.m-node.m-primary polyline {
-  stroke: #a5c9ea;
+  stroke: #af38e6;
 }
 .m-graph g.m-edge.m-success polygon,
 .m-graph g.m-node.m-success:not(.m-flat) ellipse,
@@ -1888,15 +1888,15 @@ body > header > nav .m-row > [class*='m-col-'] {
   padding-bottom: 0;
 }
 body > header > nav a:hover, body > header > nav a:focus, body > header > nav a:active {
-  color: #a5c9ea;
+  color: #af38e6;
 }
 body > header > nav #m-navbar-collapse li:hover {
-  border-color: #a5c9ea;
+  border-color: #af38e6;
 }
 body > header > nav #m-navbar-collapse li a:hover,
 body > header > nav #m-navbar-collapse li a:focus,
 body > header > nav #m-navbar-collapse li a:active {
-  border-color: #a5c9ea;
+  border-color: #af38e6;
   background-color: #292f37;
 }
 body > header > nav.m-navbar-landing #m-navbar-collapse li a:hover,
@@ -1996,7 +1996,7 @@ body > footer > nav a {
   color: #ffffff;
 }
 body > footer > nav a:hover, body > footer > nav a:focus, body > footer > nav a:active {
-  color: #a5c9ea;
+  color: #af38e6;
 }
 body > main {
   padding-top: 1rem;
@@ -2010,7 +2010,7 @@ article h1 .m-breadcrumb {
   font-weight: normal;
 }
 article h1 .m-breadcrumb a {
-  color: #a5c9ea;
+  color: #af38e6;
 }
 article h1 .m-breadcrumb a:hover, article h1 a:focus, article h1 a:active {
   color: #dcdcdc;
@@ -2025,7 +2025,7 @@ article section > h3, article section > h3 a,
 article section > h4, article section > h4 a,
 article section > h5, article section > h5 a,
 article section > h6, article section > h6 a {
-  color: #a5c9ea;
+  color: #af38e6;
 }
 article h1 a:hover, article > header h1 a:hover, article > header h1 a:focus, article > header h1 a:active,
 article section > h2 a:hover, article section > h2 a:focus, article section > h2 a:active,
@@ -2046,7 +2046,7 @@ article > header .m-date {
   white-space: nowrap;
   border-right-style: solid;
   border-right-width: 0.125rem;
-  border-color: #a5c9ea;
+  border-color: #af38e6;
   padding-right: 0.75rem;
   margin-top: -0.1rem;
   margin-right: 0.75rem;
@@ -2081,7 +2081,7 @@ article section:target {
   border-left-style: solid;
   border-left-width: 0.25rem;
   padding-left: 0.75rem;
-  border-color: #a5c9ea;
+  border-color: #af38e6;
 }
 article h1 a, article > header h1 a, article section > h2 a, article section > h3 a,
 article section > h4 a, article section > h5 a, article section > h6 a {
@@ -2167,7 +2167,7 @@ article#m-jumbo.m-inverted > header a:hover, article#m-jumbo.m-inverted > header
   text-transform: uppercase;
 }
 .m-landing-news h3 a:hover, .m-landing-news h3 a:hover, .m-landing-news h3 a:focus, .m-landing-news h3 a:active {
-  color: #a5c9ea;
+  color: #af38e6;
 }
 .m-landing-news time {
   display: inline-block;
@@ -2197,7 +2197,7 @@ nav.m-navpanel a {
   text-decoration: none;
 }
 nav.m-navpanel a:hover, nav.m-navpanel a:focus, nav.m-navpanel a:active {
-  color: #a5c9ea;
+  color: #af38e6;
 }
 ul.m-tagcloud li { display: inline; }
 ul.m-tagcloud li.m-tag-1 { font-size: 0.75rem; }
@@ -2462,7 +2462,7 @@ article:last-child, article section:last-child { margin-bottom: 0; }
   border-color: #405363;
 }
 .m-container-inflatable section:target .m-note.m-primary  {
-  border-color: #a5c9ea;
+  border-color: #af38e6;
 }
 .m-container-inflatable section:target .m-note.m-success {
   border-color: #3bd267;
@@ -2481,17 +2481,17 @@ article:last-child, article section:last-child { margin-bottom: 0; }
 }
 
 .m-code .hll { background-color: #34424d }
-.m-code .c { color: #a5c9ea }
+.m-code .c { color: #af38e6 }
 .m-code .k { color: #ffffff; font-weight: bold }
 .m-code .n { color: #dcdcdc }
 .m-code .o { color: #aaaaaa }
 .m-code .p { color: #aaaaaa }
-.m-code .ch { color: #a5c9ea }
-.m-code .cm { color: #a5c9ea }
+.m-code .ch { color: #af38e6 }
+.m-code .cm { color: #af38e6 }
 .m-code .cp { color: #3bd267 }
 .m-code .cpf { color: #c7cf2f }
-.m-code .c1 { color: #a5c9ea }
-.m-code .cs { color: #a5c9ea }
+.m-code .c1 { color: #af38e6 }
+.m-code .cs { color: #af38e6 }
 .m-code .gd { color: #cd3431 }
 .m-code .ge { color: #e6e6e6; font-style: italic }
 .m-code .gh { color: #ffffff; font-weight: bold }
